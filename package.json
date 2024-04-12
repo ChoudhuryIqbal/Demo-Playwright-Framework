@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ChoudhuryIqbal/Demo-Playwright-Framework#readme",
   "devDependencies": {
     "@cucumber/cucumber": "^10.4.0",
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "playwright": "^1.2.1"
   },
   "dependencies": {
     "@playwright/test": "^1.43.0",
