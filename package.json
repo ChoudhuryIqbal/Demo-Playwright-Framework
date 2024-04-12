@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pw:install": "npm install",
+    "test": ".\\node_modules\\.bin\\cucumber-js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChoudhuryIqbal/Demo-Playwright-Framework.git"
@@ -16,10 +19,13 @@
   },
   "homepage": "https://github.com/ChoudhuryIqbal/Demo-Playwright-Framework#readme",
   "devDependencies": {
-    "@playwright/test": "^1.43.0",
+    "@cucumber/cucumber": "^10.4.0",
     "@types/node": "^20.12.7"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^10.4.0"
+    "@playwright/test": "^1.43.0",
+    "csv-parse": "^5.5.5",
+    "cucumber-playwright": "^1.2.1",
+    "reporter": "^0.1.0"
   }
 }
