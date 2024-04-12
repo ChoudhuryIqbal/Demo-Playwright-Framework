@@ -15,5 +15,6 @@
             "json:test-results/cucumber-report.json"
         ],
         "parallel": 1
+        
     }
 }

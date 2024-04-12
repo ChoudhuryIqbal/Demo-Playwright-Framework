@@ -10,7 +10,7 @@ const parsedData = parse(csvData, {
 });
 
 Given('User is on the SauceDemo website', async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
   this.page = await context.newPage();
   await this.page.goto("https://www.saucedemo.com/");
